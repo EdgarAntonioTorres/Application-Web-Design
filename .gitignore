@@ -1,0 +1,36 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+
+# Logs
+/storage/logs
+*.log
+
+# Cache
+/bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing
+.phpunit.result.cache
+
+# NPM debug
+npm-debug.log
+yarn-error.log
+
+# Build files
+/public/hot
+/public/build
+
+# Misc
+Homestead.json
+Homestead.yaml
